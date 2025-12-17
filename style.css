@@ -7,7 +7,7 @@
 /* Body & Background */
 body {
   font-family: 'Ambit Logo', Arial, sans-serif;
-  background-color: #c2e6fa;
+  background-color: #092a5e;
   margin: 0;
   padding: 0;
   color: #333;
@@ -17,7 +17,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #70cbf4;
+  background-color: #092a5e;
   color: white;
 }
 
@@ -50,7 +50,7 @@ th, td {
 }
 
 th {
-  background-color: #70cbf4;
+  background-color: #092a5e;
   color: white;
 }
 
