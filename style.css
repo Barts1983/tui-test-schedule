@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Ambit Logo';
-  src: url('AmbitLogo.ttf') format('truetype');
+  src: url('AmbitLogo.woff') format('truetype');
 }
 
 /* HTML & Body */
@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #092a5e;  /* Dark blue for entire page */
+  background-color: #092a5e;  /* Dark blue page */
   font-family: 'Ambit Logo', Arial, sans-serif;
   color: white;
 }
@@ -37,7 +37,7 @@ main {
   width: 90%;
   margin: 20px auto;
   background-color: #092a5e; /* Dark blue behind table */
-  padding: 20px 0;           /* Optional spacing */
+  padding: 20px 0;
 }
 
 /* Table styling */
@@ -45,45 +45,4 @@ table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
-  background-color: #092a5e; /* Dark blue background */
-}
-
-th, td {
-  border: 2px solid #70cbf4;  /* Light blue borders for contrast */
-  padding: 12px;
-  color: white;               /* White text */
-  background-color: #092a5e; /* Ensure dark blue background for all cells */
-}
-
-th {
-  background-color: #092a5e; /* Dark blue header */
-  color: white;
-}
-
-tr {
-  background-color: #092a5e; /* All rows dark blue */
-  color: white;
-}
-
-/* Footer logo */
-.logo-footer {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.logo-footer img {
-  max-width: 200px;
-  height: auto;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 1.5em;
-  }
-
-  th, td {
-    padding: 8px;
-    font-size: 0.9em;
-  }
-}
+  background-color: #092a5e; /* Dark blue table back*
