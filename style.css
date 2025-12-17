@@ -4,25 +4,21 @@
   src: url('AmbitLogo.ttf') format('truetype'); /* Add your local font file if available */
 }
 
-/* Body & Background */
-body {
-  font-family: 'Ambit Logo', Arial, sans-serif;
-  background-color: #092a5e;
-  margin: 0;
-  padding: 0;
-  }
+/* HTML & Body */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #092a5e; /* your dark blue */
+  background-color: #092a5e;  /* Dark blue background for whole page */
+  font-family: 'Ambit Logo', Arial, sans-serif;
+  color: white;
 }
 
 /* Header */
 header {
   text-align: center;
   padding: 20px;
-  background-color: #092a5e;
+  background-color: #092a5e;  /* Dark blue header */
   color: white;
 }
 
@@ -40,6 +36,7 @@ header p {
 main {
   width: 90%;
   margin: 20px auto;
+  background-color: transparent; /* Let dark blue show behind table */
 }
 
 /* Table styling */
@@ -50,20 +47,37 @@ table {
 }
 
 th, td {
-  border: 2px solid #70cbf4;
+  border: 2px solid #70cbf4;  /* Light blue borders for contrast */
   padding: 12px;
 }
 
 th {
-  background-color: #092a5e;
+  background-color: #0b3a77;  /* Slightly lighter dark blue for header */
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #092a5e;  /* Dark blue rows */
   color: white;
 }
 
 tr:nth-child(even) {
-  background-color: #e6f5fc;
+  background-color: #0b3a77;  /* Slightly lighter for stripe effect */
+  color: white;
 }
 
-/* Optional: Responsive font size */
+/* Footer logo */
+.logo-footer {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.logo-footer img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.5em;
