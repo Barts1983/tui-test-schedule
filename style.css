@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Ambit Logo';
-  src: url('AmbitLogo.woff') format('truetype'); /* Add your local font file if available */
+  src: url('AmbitLogo.ttf') format('truetype');
 }
 
 /* HTML & Body */
@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #092a5e;  /* Dark blue background for whole page */
+  background-color: #092a5e;  /* Dark blue for entire page */
   font-family: 'Ambit Logo', Arial, sans-serif;
   color: white;
 }
@@ -18,7 +18,7 @@ html, body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #092a5e;  /* Dark blue header */
+  background-color: #092a5e;
   color: white;
 }
 
@@ -36,7 +36,8 @@ header p {
 main {
   width: 90%;
   margin: 20px auto;
-  background-color: transparent; /* Let dark blue show behind table */
+  background-color: #092a5e; /* Dark blue behind table */
+  padding: 20px 0;           /* Optional spacing */
 }
 
 /* Table styling */
@@ -44,25 +45,23 @@ table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
+  background-color: #092a5e; /* Dark blue background */
 }
 
 th, td {
   border: 2px solid #70cbf4;  /* Light blue borders for contrast */
   padding: 12px;
+  color: white;               /* White text */
+  background-color: #092a5e; /* Ensure dark blue background for all cells */
 }
 
 th {
-  background-color: #0b3a77;  /* Slightly lighter dark blue for header */
+  background-color: #092a5e; /* Dark blue header */
   color: white;
 }
 
-tr:nth-child(odd) {
-  background-color: #092a5e;  /* Dark blue rows */
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #0b3a77;  /* Slightly lighter for stripe effect */
+tr {
+  background-color: #092a5e; /* All rows dark blue */
   color: white;
 }
 
