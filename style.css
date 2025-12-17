@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Ambit Logo';
-  src: url('AmbitLogo.ttf') format('truetype'); /* Add your local font file if available */
+  src: url('AmbitLogo.woff') format('truetype'); /* Add your local font file if available */
 }
 
 /* HTML & Body */
